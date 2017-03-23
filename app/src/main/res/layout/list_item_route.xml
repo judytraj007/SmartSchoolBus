@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/SerialNo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:id="@+id/stopName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/amTime"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/pmTime"/>
+
+</LinearLayout>

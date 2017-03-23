@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "560077246928",
+    "firebase_url": "https://smart-school-bus-154706.firebaseio.com",
+    "project_id": "smart-school-bus-154706",
+    "storage_bucket": "smart-school-bus-154706.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560077246928:android:3a98aa02caa218d5",
+        "android_client_info": {
+          "package_name": "com.judy.smartschoolbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560077246928-n0m23db4uhjouc8182t1mft6oqf5sgd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.judy.smartschoolbus",
+            "certificate_hash": "80ccaf33092b50ef70866ef890ecddc27e27e128"
+          }
+        },
+        {
+          "client_id": "560077246928-gg9qt13gj53c83nuut74ofopldtdcqjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIMIoucUaPUeeL4T7huyaWyEbPfAN_QAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560077246928-gg9qt13gj53c83nuut74ofopldtdcqjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

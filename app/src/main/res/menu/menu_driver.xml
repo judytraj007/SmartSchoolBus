@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Contact Admin"
+        android:id="@+id/ctAdmin"
+        android:icon="@drawable/call"
+        app:showAsAction="always"/>
+    <item
+        android:title="Contact Admin"
+        android:id="@+id/ctPolics"
+        android:icon="@drawable/police"
+        app:showAsAction="always"/>
+    <item
+        android:title="Contact Admin"
+        android:id="@+id/ctAmb"
+        android:icon="@drawable/ambulance"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        app:showAsAction="always"
+        android:id="@+id/drSettings"/>
+
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=80:CC:AF:33:09:2B:50:EF:70:86:6E:F8:90:EC:DD:C2:7E:27:E1:28%3Bcom.judy.smartschoolbus.activities
+
+    You can also add your credentials to an existing key, using this line:
+    80:CC:AF:33:09:2B:50:EF:70:86:6E:F8:90:EC:DD:C2:7E:27:E1:28;com.judy.smartschoolbus.activities
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBDmnv1LwfyUGrBsN4cYwqt2lme0D7LlH8
+    </string>
+</resources>

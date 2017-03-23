@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Contact Driver"
+        android:id="@+id/ctDriver"
+        android:icon="@drawable/call"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="View Students"
+        android:id="@+id/adNewStudent"
+        app:showAsAction="never"/>
+    <item
+        android:title="Add Student"
+        android:id="@+id/adNewDr"
+        app:showAsAction="never"/>
+    <item
+        android:title="Buses"
+        android:id="@+id/adBus"
+        app:showAsAction="never"/>
+    <item
+        android:title="Settings"
+        app:showAsAction="never"
+        android:id="@+id/adSettings"/>
+
+
+
+</menu>

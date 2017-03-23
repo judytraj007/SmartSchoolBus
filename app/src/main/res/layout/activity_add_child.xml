@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_child"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    tools:context="com.judy.smartschoolbus.activities.AddChildActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edSearch"
+            android:textColorHint="#fff"
+            android:hint="Child id" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/edSearch"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_toEndOf="@+id/edSearch"
+            android:id="@+id/searchBtn"
+            android:src="@drawable/plus"/>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressBarChild"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:enabled="false"
+        android:id="@+id/chName"
+        android:hint="Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:enabled="false"
+        android:id="@+id/chClass"
+        android:hint="Class"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:enabled="false"
+        android:id="@+id/chBno"
+        android:hint="Bus number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:enabled="false"
+        android:id="@+id/chStop"
+        android:hint="Stop"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow"
+        android:id="@+id/chUpdateBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+
+</LinearLayout>

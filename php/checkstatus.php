@@ -1,16 +1,18 @@
 <?php
-include 'dbConnect.php';
 include 'changestatus.php';
-function checkStatus($regid){
-	$sql="SELECT status FROM student WHERE id='".$regid."'";
-	$result = mysqli_query($sql, $con);
-	if($result=="1"){
-	echo changestatus("0",$regid);
-	$msg = "Your child has alighted at school";
+function checkStatus($con){
+	$sql="SELECT status FROM student WHERE id = 3133482000";
+	$result = mysqli_query($con,$sql);
+        if ($row = $result->fetch_assoc()) {
+           $res = $row["status"];
+           }
+	if(strcmp($res,'1')==0){
+	echo changestatus($con,'0','3133482000');
+	$msg = "Your child has alighted at school.";
 	}
 	else{
-	echo changestatus("1",$regid);
-	$msg = "Your child has boarded from school";
+	echo changestatus($con,'1','3133482000');
+	$msg = "Your child has boarded from school.";
 	}
 	return $msg;
 }

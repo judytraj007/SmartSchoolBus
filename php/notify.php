@@ -1,14 +1,19 @@
 <?php
-include 'dbConnect.php';
-include 'checkstatus.php';
-$id = $_POST['child']; 
-$body=checkStatus($id);
+	include 'dbConnect.php';
+	include 'checkstatus.php';
+	 $lat = $_POST['lat1'];
+	 $lng = $_POST['lng1'];
+	 $id = $_POST['child']; 
+	 $key = "AIzaSyDtpKpAphIqUCTn2GyqNsYryDdr1GGcQjs";
+	 
+	 $body=checkstatus($con);
+	 
 	
-$ch = curl_init("https://fcm.googleapis.com/fcm/send");
-$token = "ceo1hJQnt-0:APA91bGkSgAGP274nyng7c3s8IixNtCrxKuWQIO1ZwRWCUgpzL4CZEoGGwxlEQIQGedrhjvOl1L-faEEA0MeO0sxvgw35hPoGGzY92w6zyUncalTT-jGJq3IdxSy2hI-VBoP2OZi1ZUD";
+ $ch = curl_init("https://fcm.googleapis.com/fcm/send");
+$token = "eI1SBoY2JBE:APA91bGk0z5GOVTiC4vK15yXyuXwp7l2A5AzSaid3iMzhBLUEyaIXwr09T6hOeLg9-Ca70lBos8mAFLR_wj1d3BuU6Z8SXnHNI7cBs8k44Er_FISEaJ694PidhHpEDZ3Wl858OwDuPBW";
 
 //Title of the Notification.
-$title = "Your child is safe!";
+$title = "Smart School Bus";
 
 
 //Creating the notification array.
@@ -35,5 +40,5 @@ curl_exec($ch);
 
 //Close request
 curl_close($ch);
-//}
+
 ?>

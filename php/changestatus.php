@@ -1,7 +1,6 @@
 <?php
-include 'dbConnect.php';
-function changeStatus($val,$regid){
+function changeStatus ($con,$val,$regid){
 	$sql="UPDATE student SET status = '".$val."' WHERE id='".$regid."'";
-	mysqli_query($sql, $con);
+	mysqli_query($con,$sql);
 }
 ?>
